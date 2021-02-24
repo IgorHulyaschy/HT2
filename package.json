@@ -1,9 +1,10 @@
 {
   "name": "ht2",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
+    "lint": "eslint **/*.js",
+    "lint:fix": "eslint --fix **/*.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,8 +18,11 @@
   },
   "homepage": "https://github.com/IgorHulyaschy/HT2#readme",
   "devDependencies": {
+    "prettier": "2.2.1",
     "eslint": "^7.20.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.22.1"
-  }
+  },
+  "dependencies": {},
+  "description": ""
 }
